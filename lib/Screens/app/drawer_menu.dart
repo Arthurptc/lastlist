@@ -1,9 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/app/get_api.dart';
 import 'package:flutter_auth/Screens/app/main1.dart';
-//import 'package:flutter_auth/Screens/app/main.dart';
 import 'package:flutter_auth/Screens/app/profile.dart';
 // ignore: unused_import
 
@@ -43,7 +41,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
               Navigator.push(
                 context,
                 // ignore: prefer_const_constructors
-                MaterialPageRoute(builder: (context) => GetAPI()),
+                MaterialPageRoute(builder: (context) => api()),
               );
             },
           ),
